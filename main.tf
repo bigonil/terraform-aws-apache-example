@@ -1,3 +1,8 @@
+provider "aws" {
+  region                  = var.aws_region
+  profile                 = "lb-aws-admin"
+}
+
 data "aws_vpc" "selected" {
   id = var.vpc_id
 }

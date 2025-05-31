@@ -23,3 +23,9 @@ variable "server_name" {
   description = "Name tag to assign to the EC2 instance"
   type        = string
 }
+
+variable "aws_region" {
+  description = "AWS region to deploy resources"
+  type        = string
+  default     = "us-east-1"
+}
