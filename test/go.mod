@@ -1,4 +1,4 @@
-module github.com/<your-username>/terraform-aws-apache-example/test
+module github.com/bigonil/terraform-aws-apache-example/test
 
 go 1.20
 
